@@ -1,10 +1,10 @@
 {
-  "name": "personalWebsite",
+  "name": "ResumeApplicaiton",
   "version": "2.0.0",
   "description": "Some boilerplate code to get you started - get shakin'!",
   "main": "index.js",
   "scripts": {
-    "build": "npm run build:dev & npm run start-server",
+    "build": "webpack",
     "build:dev": "npm run build -- --watch --mode=development",
     "seed": "node script/seed.js",
     "start": "node server",
