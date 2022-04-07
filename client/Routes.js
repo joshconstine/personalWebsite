@@ -16,6 +16,7 @@ class Routes extends Component {
     return (
       <div>
         <Route path="/home" component={Home} />
+        <Route path="/" component={Home} />
         <Redirect to="/home" />
       </div>
     );
